@@ -2,9 +2,9 @@
 (Copyright 2005 - 2012 by John Johnson)
 (See readme.txt for licensing terms.)
 (This file generated from the board:)
-(.../CAM/eurorack/Active-Mult/mult.brd)
+(.../eurorack/Active-Mult/eagle/mult.brd)
 (Current profile is .../pcbgcode.repo/profiles/mach.pp  )
-(This file generated 12/30/15 11:16 PM)
+(This file generated 2/2/16 12:15 AM)
 (Settings from pcb-machine.h)
 (spindle on time = 0.0000)
 (spindle speed = 20000.0000)
@@ -16,8 +16,8 @@
 (1.0000  	0.0500  	-0.0040 	-0.0730 )
 (Settings from pcb-defaults.h)
 (isolate min = 0.0010)
-(isolate max = 0.0150)
-(isolate step = 0.0015)
+(isolate max = 0.0170)
+(isolate step = 0.0017)
 (Generated bottom outlines, bottom drill, )
 (Unit of measure: inch)
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
@@ -55,38 +55,40 @@ M06
 G00 Z0.0500  
 M03
 G04 P0.000000
-G82 X-0.7250 Y0.9000  Z-0.0730 F20    R0.0500  P0.010000
-G82 X-0.7500 Y0.7500  
-G82 X-0.8000 Y0.6000  
-G82 X-0.9000 Y0.6000  
-G82 X-1.0500 Y0.6000  
-G82 X-1.1500 Y0.6000  
-G82 X-1.1500 Y0.7500  
-G82 X-1.1500 Y0.9250  
-G82 X-1.2000 Y1.0500  
-G82 X-1.2000 Y1.1500  
-G82 X-1.2000 Y1.2500  
-G82 X-1.2000 Y1.3500  
-G82 X-1.2000 Y1.4500  
-G82 X-1.2000 Y1.5500  
-G82 X-1.2000 Y1.6500  
-G82 X-1.2500 Y1.7500  
-G82 X-1.2500 Y1.9500  
-G82 X-1.1500 Y2.0500  
-G82 X-1.0500 Y2.0500  
-G82 X-0.9000 Y1.9500  
+G82 X-0.1500 Y2.0000  Z-0.0730 F20    R0.0500  P0.010000
+G82 X-0.5500 Y2.0000  
+G82 X-0.7250 Y1.8500  
 G82 X-0.7750 Y1.9500  
-G82 X-0.7500 Y1.8500  
-G82 X-0.9000 Y1.6500  
-G82 X-0.9000 Y1.5500  
-G82 X-0.9000 Y1.4500  
-G82 X-0.9000 Y1.3500  
-G82 X-0.9000 Y1.2500  
-G82 X-0.9000 Y1.1500  
-G82 X-0.9000 Y1.0500  
+G82 X-0.9000 Y1.9500  
+G82 X-1.0500 Y2.0500  
+G82 X-1.1500 Y2.0500  
+G82 X-1.2500 Y1.9500  
+G82 X-1.2500 Y1.7500  
+G82 X-1.2000 Y1.6500  
+G82 X-1.2000 Y1.5500  
+G82 X-1.2000 Y1.4500  
+G82 X-1.2000 Y1.3500  
+G82 X-1.2000 Y1.2500  
+G82 X-1.2000 Y1.1500  
+G82 X-1.2000 Y1.0500  
+G82 X-1.1500 Y0.9250  
+G82 X-1.1500 Y0.7500  
+G82 X-1.1500 Y0.6000  
+G82 X-1.0500 Y0.6000  
+G82 X-0.9000 Y0.6000  
+G82 X-0.8000 Y0.6000  
+G82 X-0.7500 Y0.7500  
+G82 X-0.7250 Y0.9000  
 G82 X-0.9500 Y0.9250  
+G82 X-0.9000 Y1.0500  
+G82 X-0.9000 Y1.1500  
+G82 X-0.9000 Y1.2500  
+G82 X-0.9000 Y1.3500  
+G82 X-0.9000 Y1.4500  
+G82 X-0.9000 Y1.5500  
+G82 X-0.9000 Y1.6500  
+G82 X-0.7250 Y1.4500  
 G82 X-0.7250 Y1.3000  
-G82 X-0.7500 Y1.4500  
 G82 X-0.7750 Y2.3500  
 G82 X-0.9000 Y2.3500  
 M05
